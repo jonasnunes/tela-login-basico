@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242323b6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#area-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#area-login div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: #000;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+#area-login img{
+    margin: 1rem;
+}
+
+#area-login input{
+    width: 80%;
+    padding: .7rem;
+    border-radius: .2rem;
+    border: none;
+    background-color: #e6e6e6;
+}
+
+#area-login input:focus{
+    background-color: #FF6F61;
+}
+
+#area-login button{
+    width: 80%;
+    padding: .9rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: .2rem;
+    background-color: #FF6F61;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+#area-login button a{
+    color: #fff;
+}
+
+#area-login p{
+    color: #fff;
+}
+
+#area-login a{
+    text-decoration: none;
+}
+
+@media(max-width: 410px){
+    body{
+        background-color: #000;
+    }
+
+    #area-login div{
+        width: 100%;
+        border-radius: 0;
+    }
+}
